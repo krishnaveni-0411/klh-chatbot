@@ -1,7 +1,7 @@
 'use client';
 
-import Home from '../page';
+import Chatbot from '../components/Chatbot';
 
 export default function WidgetPage() {
-  return <Home />;
+  return <Chatbot />;
 }
