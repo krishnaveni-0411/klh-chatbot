@@ -216,7 +216,7 @@ const FAQ_CATEGORIES = [
 /* ================= COMPONENT ================= */
 
 export default function Chatbot() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [step, setStep] = useState<Step>('welcome');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [answer, setAnswer] = useState('');
